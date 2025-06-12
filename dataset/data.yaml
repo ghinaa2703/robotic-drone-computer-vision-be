@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: robotics-toach
+  project: testing-by97i
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/robotics-toach/testing-by97i/dataset/3

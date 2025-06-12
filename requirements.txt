@@ -3,3 +3,9 @@ uvicorn
 websockets
 opencv-python
 numpy
+ultralytics
+opencv-python
+numpy
+torch
+torchvision
+face_recognition

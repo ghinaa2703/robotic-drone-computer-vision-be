@@ -108,3 +108,71 @@ venv.bak/
 .mypy_cache/
 
 .idea/*
+
+# Ignore test data directory
+test/
+
+# Ignore prediction results
+runs/predict/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm files
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Environment directories
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Model weights and large files
+*.pt
+*.pth
+*.weights
+*.h5
+
+# Dataset files
+*.zip
+*.tar
+*.gz
+
+# Media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.tiff
